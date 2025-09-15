@@ -26,7 +26,7 @@ Ejecutamos este comando en la terminal de visual code
 terraform init
 ```
 
-### 4. Ejecución de la configuración en Terraform
+### 2. Ejecución de la configuración en Terraform
 
 Este comando aplica la configuración escrita en los archivos `.tf` y crea la infraestructura en visual code
 
@@ -34,23 +34,24 @@ Este comando aplica la configuración escrita en los archivos `.tf` y crea la in
 terraform apply
 ```
 
-### 5. Visualización de contenedores activos en Docker
+### 3. Visualización de contenedores activos en Docker
 
 Una vez aplicada la infraestructura con Terraform, puedes verificar qué contenedores están corriendo usando:
 
 ```bash
 docker ps
 ```
-### 6. Revisión de redes Docker creadas
+### 4. Revisión de redes Docker creadas
 
 Para verificar la configuración y los contenedores conectados a una red (grafananet, appnet, persistencenet), utiliza el comando:
 
 ```bash
 docker inspect network <nombreRed>
 ```
-### 7. Comprobación de accesibilidad de los servicios
+### 5. Comprobación de accesibilidad de los servicios
 
 Abre tu navegador web y accede al servicio a través de `localhost` y el puerto correspondiente.
 
 Por ejemplo, ingresa:`http://localhost:8000/`
+
 
