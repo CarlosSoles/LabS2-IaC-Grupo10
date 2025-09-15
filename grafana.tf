@@ -1,5 +1,5 @@
-resource "docker_network" "monitornet" {
-    name = "monitornet"
+resource "docker_network" "monitor_net" {
+    name = "monitor_net"
 }
 
 resource "docker_container" "grafana"{
@@ -11,9 +11,9 @@ resource "docker_container" "grafana"{
     }
 
     networks_advanced{
-        name = docker_network.monitornet.name
+        name = docker_network.monitor_net.name
     }
     networks_advanced{
-        name = docker_network.appnet.name
+        name = docker_network.app_net.name
     }
 }

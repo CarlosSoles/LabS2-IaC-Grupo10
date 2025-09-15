@@ -1,8 +1,8 @@
-resource "docker_network" "appnetwork" {
+resource "docker_network" "app_net" {
     name = "appnetwork"
 }
-resource "docker_container" "nginx1" {
-  name  = "nginx1"
+resource "docker_container" "app1" {
+  name  = "app1"
   image = "nginx:1.29.1-perl"
 
   ports {
@@ -11,15 +11,15 @@ resource "docker_container" "nginx1" {
   }
 
   networks_advanced{
-    name = docker_network.appnetwork.name
+    name = docker_network.app_net.name
   }
   networks_advanced{
-    name = docker_network.persistencenet.name
+    name = docker_network.persistence_net.name
   }
 }
 
-resource "docker_container" "nginx2" {
-  name  = "nginx2"
+resource "docker_container" "app2" {
+  name  = "app22"
   image = "nginx:1.29.1-perl"
 
   ports {
@@ -28,15 +28,15 @@ resource "docker_container" "nginx2" {
   }
 
   networks_advanced{
-    name = docker_network.appnetwork.name
+    name = docker_network.app_net.name
   }
   networks_advanced{
-    name = docker_network.persistencenet.name
+    name = docker_network.persistence_net.name
   }
 }
 
-resource "docker_container" "nginx3" {
-  name  = "nginx3"
+resource "docker_container" "app3" {
+  name  = "app3"
   image = "nginx:1.29.1-perl"
 
   ports {
@@ -45,9 +45,9 @@ resource "docker_container" "nginx3" {
   }
 
   networks_advanced{
-    name = docker_network.appnetwork.name
+    name = docker_network.app_net.name
   }
   networks_advanced{
-    name = docker_network.persistencenet.name
+    name = docker_network.persistence_net.name
   }
 }

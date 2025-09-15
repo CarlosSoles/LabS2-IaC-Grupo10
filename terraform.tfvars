@@ -9,5 +9,3 @@ grafana_ports_external = 3001
 redis_ports_external = 6380
 
 postgres_ports_external = 5433
-
-
