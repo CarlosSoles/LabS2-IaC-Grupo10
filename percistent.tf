@@ -8,7 +8,7 @@ resource "docker_container" "redis_conteiner" {
 
   ports {
     internal = 6379
-    external = 6380
+    external = var.redis_ports_external
   }
 
   networks_advanced{
@@ -22,7 +22,7 @@ resource "docker_container" "PostTeiner_dev" {
 
   ports {
     internal = 5432
-    external = 1234
+    external = var.postgres_ports_external
   }
 
   env = ["POSTGRES_PASSWORD=5432"]

@@ -7,7 +7,7 @@ resource "docker_container" "grafana"{
     image = "grafana/grafana:12.3.0-17718666199-ubuntu"
     ports {
         internal =  3000
-        external =  4001
+        external =  var.grafana_ports_external
     }
 
     networks_advanced{

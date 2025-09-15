@@ -7,7 +7,7 @@ resource "docker_container" "nginx1" {
 
   ports {
     internal = 80
-    external = 81
+    external = var.ngnix_app1_ports_external
   }
 
   networks_advanced{
@@ -24,7 +24,7 @@ resource "docker_container" "nginx2" {
 
   ports {
     internal = 80
-    external = 90
+    external = var.ngnix_app2_ports_external
   }
 
   networks_advanced{
@@ -41,7 +41,7 @@ resource "docker_container" "nginx3" {
 
   ports {
     internal = 80
-    external = 10
+    external = var.ngnix_app3_ports_external
   }
 
   networks_advanced{
