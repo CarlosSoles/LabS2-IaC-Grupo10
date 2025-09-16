@@ -14,5 +14,5 @@ provider "docker" {
 # terraform workspace list
 # terraform workspace new dev
 # terraform plan
-# terraform apply -y
+# terraform apply -auto-approve
 # terraform destroy
