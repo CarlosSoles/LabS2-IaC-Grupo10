@@ -87,8 +87,12 @@ Por ejemplo, ingresa:`http://localhost:8001/` -> app1
                      `http://localhost:8002/` -> app2
                      `http://localhost:8003/` -> app3
                      `http://localhost:3001/` -> grafana
-![Imagen de WhatsApp 2025-09-15 a las 22 28 34_0484195e](https://github.com/user-attachments/assets/e335b7ae-312c-48d6-b841-1d0cccfa2b14)
-![Imagen de WhatsApp 2025-09-15 a las 22 28 59_8eb4c37a](https://github.com/user-attachments/assets/98dabef6-3839-444c-87df-13235149a9d9)
+
+<img src="https://github.com/user-attachments/assets/e335b7ae-312c-48d6-b841-1d0cccfa2b14" alt="Imagen de WhatsApp 2025-09-15 a las 22 28 34" width="300"/>
+
+<img src="https://github.com/user-attachments/assets/98dabef6-3839-444c-87df-13235149a9d9" alt="Imagen de WhatsApp 2025-09-15 a las 22 28 59" width="300"/>
+
+
 
 
 
