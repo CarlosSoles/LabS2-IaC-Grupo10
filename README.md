@@ -89,13 +89,14 @@ Por ejemplo, ingresa:`http://localhost:8001/` -> app1
                      `http://localhost:3001/` -> grafana
 
                      
-<img src="https://github.com/user-attachments/assets/98dabef6-3839-444c-87df-13235149a9d9" alt="Imagen de WhatsApp 2025-09-15 a las 22 28 59" width="300"/>
+<img src="https://github.com/user-attachments/assets/98dabef6-3839-444c-87df-13235149a9d9" alt="Imagen de WhatsApp 2025-09-15 a las 22 28 59" width="500"/>
 
 
 
-<img src="https://github.com/user-attachments/assets/e335b7ae-312c-48d6-b841-1d0cccfa2b14" alt="Imagen de WhatsApp 2025-09-15 a las 22 28 34" width="300"/>
+<img src="https://github.com/user-attachments/assets/e335b7ae-312c-48d6-b841-1d0cccfa2b14" alt="Imagen de WhatsApp 2025-09-15 a las 22 28 34" width="600"/>
 
 ![Imagen de WhatsApp 2025-09-15 a las 22 31 40_84bcf953](https://github.com/user-attachments/assets/b9f7cd17-f7f3-4cd1-8d70-24a5b65ccca9)
+
 
 
 
