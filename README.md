@@ -41,17 +41,11 @@ Una vez aplicada la infraestructura con Terraform, puedes verificar qué contene
 ```bash
 docker ps
 ```
-### 4. Revisión de redes Docker creadas
-
-Para verificar la configuración y los contenedores conectados a una red (grafananet, appnet, persistencenet), utiliza el comando:
-
-```bash
-docker inspect network <nombreRed>
-```
-### 5. Comprobación de accesibilidad de los servicios
+### 4. Comprobación de accesibilidad de los servicios
 
 Abre tu navegador web y accede al servicio a través de `localhost` y el puerto correspondiente.
 
 Por ejemplo, ingresa:`http://localhost:8000/`
+
 
 
