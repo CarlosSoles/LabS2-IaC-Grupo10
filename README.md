@@ -25,8 +25,40 @@ Ejecutamos este comando en la terminal de visual code
 ```bash
 terraform init
 ```
+### 2. Lista los workspaces existentes
+```bash
+terraform workspace list
+```
 
-### 2. (Opcional) Genera un plan de ejecución para ver los cambios que se aplicarán
+Verás al menos default (creado automáticamente).
+
+### 3. Crea un nuevo workspace
+```bash
+terraform workspace new dev
+```
+
+Esto crea y cambia al workspace dev.
+
+El mensaje “Created and switched to workspace 'dev'” confirmará el cambio.
+
+### 4. Cambia entre workspaces
+```bash
+terraform workspace select default
+```
+
+O para volver a dev:
+```bash
+terraform workspace select dev
+```
+
+### 5. Revisa el workspace actual
+```bash
+terraform workspace show
+```
+Te indica en cuál estás trabajando.
+
+
+### 6. (Opcional) Genera un plan de ejecución para ver los cambios que se aplicarán
 
 Este paso no es obligatorio, pero te permite revisar qué recursos se crearán, modificarán o eliminarán **antes de aplicar los cambios**.
 
@@ -34,7 +66,7 @@ Este paso no es obligatorio, pero te permite revisar qué recursos se crearán, 
 terraform plan
 ```
 
-### 3. Ejecución de la configuración en Terraform
+### 7. Ejecución de la configuración en Terraform
 
 Este comando aplica la configuración escrita en los archivos `.tf` y crea la infraestructura en visual code
 
@@ -42,18 +74,19 @@ Este comando aplica la configuración escrita en los archivos `.tf` y crea la in
 terraform apply
 ```
 
-### 4. Visualización de contenedores activos en Docker
+### 8. Visualización de contenedores activos en Docker
 
 Una vez aplicada la infraestructura con Terraform, puedes verificar qué contenedores están corriendo usando:
 
 ```bash
 docker ps
 ```
-### 5. Comprobación de accesibilidad de los servicios
+### 9. Comprobación de accesibilidad de los servicios
 
 Abre tu navegador web y accede al servicio a través de `localhost` y el puerto correspondiente.
 
 Por ejemplo, ingresa:`http://localhost:8000/`
+
 
 
 
