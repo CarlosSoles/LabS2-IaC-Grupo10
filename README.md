@@ -83,7 +83,11 @@ docker ps
 
 Abre tu navegador web y accede al servicio a través de `localhost` y el puerto correspondiente.
 
-Por ejemplo, ingresa:`http://localhost:3001/`
+Por ejemplo, ingresa:`http://localhost:8001/` -> app1
+                     `http://localhost:8002/` -> app2
+                     `http://localhost:8003/` -> app3
+                     `http://localhost:3001/` -> grafana
+
 
 
 
