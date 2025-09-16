@@ -71,7 +71,7 @@ terraform plan
 Este comando aplica la configuración escrita en los archivos `.tf` y crea la infraestructura en visual code
 
 ```bash
-terraform apply
+terraform apply -auto-approve
 ```
 
 ### 8. Visualización de contenedores activos en Docker
@@ -86,6 +86,7 @@ docker ps
 Abre tu navegador web y accede al servicio a través de `localhost` y el puerto correspondiente.
 
 Por ejemplo, ingresa:`http://localhost:8000/`
+
 
 
 
