@@ -2,8 +2,7 @@
 
 # Descripcion Breve:
 Primero instalamos Terraform Luego lo agregamos al entorno de variables del sistema para ejcutarlo en el cmd correctamente, revisamos la documentacion de la 
-pagina Docker Build para poder realizar los pasos siguientes, luego en visual code creamos los archivos Terraform luego cada uno agrego sus commit correspondientes
-luego ejecutamos los codigos y nos dio este resultado
+pagina Docker Build para poder realizar los pasos siguientes, luego en visual code creamos los archivos Terraform luego instalamos git bash para combinar las funcionalidades de Git con un entorno de terminal similar a Unix despues de eso revisamos la pagina de Conventional Commits para agregar cada uno sus commits correspondientes luego ejecutamos los codigos y nos dio este resultado
 
 <img width="1241" height="691" alt="image" src="https://github.com/user-attachments/assets/6fd4003f-fe07-4a4d-b2d3-cedee624e9b2" />
 
@@ -86,6 +85,7 @@ docker ps
 Abre tu navegador web y accede al servicio a través de `localhost` y el puerto correspondiente.
 
 Por ejemplo, ingresa:`http://localhost:8000/`
+
 
 
 
