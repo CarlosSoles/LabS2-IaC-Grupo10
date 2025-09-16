@@ -83,7 +83,8 @@ docker ps
 
 Abre tu navegador web y accede al servicio a través de `localhost` y el puerto correspondiente.
 
-Por ejemplo, ingresa:`http://localhost:8000/`
+Por ejemplo, ingresa:`http://localhost:3001/`
+
 
 
 
