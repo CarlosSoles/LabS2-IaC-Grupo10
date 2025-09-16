@@ -26,7 +26,15 @@ Ejecutamos este comando en la terminal de visual code
 terraform init
 ```
 
-### 2. Ejecución de la configuración en Terraform
+### 2. (Opcional) Genera un plan de ejecución para ver los cambios que se aplicarán
+
+Este paso no es obligatorio, pero te permite revisar qué recursos se crearán, modificarán o eliminarán **antes de aplicar los cambios**.
+
+```bash
+terraform plan
+```
+
+### 3. Ejecución de la configuración en Terraform
 
 Este comando aplica la configuración escrita en los archivos `.tf` y crea la infraestructura en visual code
 
@@ -34,18 +42,19 @@ Este comando aplica la configuración escrita en los archivos `.tf` y crea la in
 terraform apply
 ```
 
-### 3. Visualización de contenedores activos en Docker
+### 4. Visualización de contenedores activos en Docker
 
 Una vez aplicada la infraestructura con Terraform, puedes verificar qué contenedores están corriendo usando:
 
 ```bash
 docker ps
 ```
-### 4. Comprobación de accesibilidad de los servicios
+### 5. Comprobación de accesibilidad de los servicios
 
 Abre tu navegador web y accede al servicio a través de `localhost` y el puerto correspondiente.
 
 Por ejemplo, ingresa:`http://localhost:8000/`
+
 
 
 
